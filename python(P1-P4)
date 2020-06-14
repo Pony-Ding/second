@@ -1,0 +1,23 @@
+#-*- codeing = utf-8 -*-
+#@Time : 2020/6/1 23:35
+#@Author : Pony_Ding
+#@File : P1_P4(格式).py
+#@Sorftware : PyCharm
+
+#逗号代表分割 没逗号不行
+a=1
+print("这是一个标准化字符串:",a)
+
+#%d是整型占位符 %s是字符串占位符
+print("这是变量:",a)
+print("我今年%d岁"%a)
+country="中国"
+print("我的名字是%s,我的国籍是%s"%("丁健",country))
+
+#调格式 \t 是tab    \n 是回车
+print("www","baidu","com",sep=".")
+print("我要直接连接下一行",end="")
+print("结尾是个tab",end="\t")
+print("结尾是个回车",end="\n")
+print("我是结尾")
+print("同一句话我要换行\n这个就是下一行")
