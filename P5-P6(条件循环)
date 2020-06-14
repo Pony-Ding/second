@@ -59,7 +59,7 @@ while n<=100:
         break
     print("*"*30)           #打印一排字符串的方法
     print(n)
-    n+=1
+    n+=1             #第一次github修改，添加了一个注释。
 n=1
 while n<=100:
     if n>10:
