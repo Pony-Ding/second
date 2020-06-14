@@ -1,0 +1,73 @@
+#-*- codeing = utf-8 -*-
+#@Time : 2020/6/2 22:18
+#@Author : Pony_Ding
+#@File : P5_P6(条件循环).py
+#@Sorftware : PyCharm
+
+'''
+#input输入的是字符串类型的数据 int()函数强制类型转换 type()函数返回值是括号里数据的数据类型
+a = 1
+print(type(a))
+password = input("请输入密码:")
+print("刚刚输入的密码是:",password)
+print(type(password))
+password_1 = input(a)
+print(type(password_1))
+b= "1"
+c=int(b)+1
+print(c)
+'''
+
+#条件判断语句格式
+a=1
+if False:
+    print(a)
+elif a==2:
+    print(2)
+else:
+    print(3)
+
+#随机数库的引入
+import random
+x = random.randint(0,2) #【0，2】随机整数
+
+#for循环
+for i in range(5):
+    i=i+1
+    print(i)
+for i in range(0,9,3):
+    print(i)
+
+name = "dingjianniubi"
+for x in name:
+    print(x,end="\t")
+print("\n")
+
+#while循环(1到100求和)
+i=0
+s=0
+while i<=100:
+    print("i=",i)
+    s = s + i
+    i+=1
+print(s)
+
+#break continue pass
+n=1
+while n<=100:
+    if n>10:
+        break
+    print("*"*30)           #打印一排字符串的方法
+    print(n)
+    n+=1
+n=1
+while n<=100:
+    if n>10:
+        continue
+    print(n)
+    n+=1
+while n<=100:
+    if n>10:
+        pass
+    print(n)
+    n+=1
